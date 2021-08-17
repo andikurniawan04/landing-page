@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/andikurniawan04/landing-page.git/static/css/main.bd1f6973.chunk.css",
+    "main.js": "/andikurniawan04/landing-page.git/static/js/main.607c523f.chunk.js",
+    "main.js.map": "/andikurniawan04/landing-page.git/static/js/main.607c523f.chunk.js.map",
+    "runtime-main.js": "/andikurniawan04/landing-page.git/static/js/runtime-main.9883f736.js",
+    "runtime-main.js.map": "/andikurniawan04/landing-page.git/static/js/runtime-main.9883f736.js.map",
+    "static/js/2.cc3b9c2f.chunk.js": "/andikurniawan04/landing-page.git/static/js/2.cc3b9c2f.chunk.js",
+    "static/js/2.cc3b9c2f.chunk.js.map": "/andikurniawan04/landing-page.git/static/js/2.cc3b9c2f.chunk.js.map",
+    "static/js/3.1136a0a4.chunk.js": "/andikurniawan04/landing-page.git/static/js/3.1136a0a4.chunk.js",
+    "static/js/3.1136a0a4.chunk.js.map": "/andikurniawan04/landing-page.git/static/js/3.1136a0a4.chunk.js.map",
+    "index.html": "/andikurniawan04/landing-page.git/index.html",
+    "static/css/main.bd1f6973.chunk.css.map": "/andikurniawan04/landing-page.git/static/css/main.bd1f6973.chunk.css.map",
+    "static/js/2.cc3b9c2f.chunk.js.LICENSE.txt": "/andikurniawan04/landing-page.git/static/js/2.cc3b9c2f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9883f736.js",
+    "static/js/2.cc3b9c2f.chunk.js",
+    "static/css/main.bd1f6973.chunk.css",
+    "static/js/main.607c523f.chunk.js"
+  ]
+}
