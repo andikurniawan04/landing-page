@@ -1,0 +1,63 @@
+.container {
+  padding-top: 65px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  width: 20em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 22em;
+  border-radius: 20px;
+  margin: 1.2em;
+  cursor: pointer;
+}
+
+.cardBody {
+  text-align: center;
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.cardTitle {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.cardDescription {
+  margin: 1em;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.price {
+  color: #7e76f9;
+  font-size: 1.5em;
+}
+
+.cardButton {
+  button {
+    color: #fff;
+    background-color: #6c63ff;
+    border-radius: 2em;
+    padding: 0.8em 2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}

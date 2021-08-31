@@ -12,13 +12,13 @@ const Service = () => {
     // }, [])
 
     return (
-        <div className={styles.serviceContainer}>
-            <h1>What We Offer</h1>
+        <div className={styles.serviceContainer} id="service">
+            <h1 className={styles.title}>Our Service</h1>
             <div className={styles.cardContainer}>
-                {data.map((row) => (
-                    <div className={styles.card}>
+                {data.map((row, index) => (
+                    <div className={styles.card} key={index}>
                         {console.log(row)}
-                        <img className={styles.cardImg} src={`/img/service/${row.image}`} />
+                        <img className={styles.cardImg} src={`/landing-page/img/service/${row.image}`} />
                         <h4 className={styles.cardTitle}>{row.title}</h4>
                         <div className={styles.cardBody}>
                             <div className={styles.cardButton}>

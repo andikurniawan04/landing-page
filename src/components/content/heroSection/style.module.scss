@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+}
+
+.heroLeft {
+  h1 {
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+
+  p,
+  h1 {
+    margin: 5px;
+  }
+
+  h1,
+  span {
+    display: block;
+  }
+
+  button {
+    color: #fff;
+    background-color: #6c63ff;
+    border-radius: 2em;
+    padding: 0.8em 2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.heroImg {
+  margin-top: 5px;
+  width: 30em;
+  max-width: 100%;
+}
+
+.disabled {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+
+    button {
+      color: #fff;
+      background-color: #6c63ff;
+      border-radius: 2em;
+      padding: 0.8em 2em;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      // border: 1px solid #6C63FF;
+    }
+  }
+
+  .heroLeft {
+    text-align: center;
+  }
+
+  .heroImg {
+    display: block;
+    width: 20em;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .disabled {
+    display: block;
+    margin: 1em auto;
+  }
+}

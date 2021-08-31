@@ -1,0 +1,155 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: transparent;
+  display: flex;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-around;
+
+  a {
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+.navbar.scroll {
+  background-color: #6c63ff;
+}
+
+// .coba {
+//     height: 200px;
+// }
+
+.navbarContainer {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.logo {
+  flex: 2;
+  font-size: 1.8em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+
+  a {
+    color: #000;
+  }
+}
+
+.logo.scroll {
+  a {
+    color: #fff;
+  }
+}
+
+.navMenu {
+  display: flex;
+  flex: 1.3;
+  list-style: none;
+}
+
+.navItem {
+  a {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.navLinks {
+  margin: 1rem;
+  color: #6c63ff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+.navLinks:hover {
+  border-bottom: 4px solid #6c63ff;
+  transition: all 0.2s ease-out;
+  font-size: 1.2em;
+}
+
+.navLinks.scroll {
+  color: #fff;
+}
+
+.navLinks.scroll:hover {
+  border-bottom: 4px solid #fff;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    background-color: #6c63ff;
+    padding: 15px 0px;
+    height: auto;
+  }
+
+  .logo {
+    a {
+      color: #fff;
+    }
+  }
+  .navMenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    top: 50px;
+    right: 0;
+  }
+
+  .navMenu.active {
+    display: flex;
+  }
+
+  .navItem {
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navItem:hover {
+    background-color: #6c63ff;
+    opacity: 0.9;
+
+    .navLinks {
+      color: #fff;
+    }
+  }
+
+  .navLinks:hover {
+    border-bottom: 0px;
+    font-size: 1.1em;
+  }
+
+  .navLinks.scroll:hover {
+    border-bottom: 0px;
+  }
+
+  .navLinks.scroll {
+    color: #6c63ff;
+  }
+
+  .icon {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .menuIcon {
+    display: block;
+    cursor: pointer;
+  }
+  .navLinks {
+    display: block;
+  }
+}

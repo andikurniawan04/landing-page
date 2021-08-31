@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #867eff;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerLinkWrapper {
+  display: flex;
+}
+
+.footerLinkItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 40px;
+
+  h2 {
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .Link {
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: margin 0.3s;
+  }
+
+  a:hover {
+    color: #e9e9e9;
+    margin-left: 8px;
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+.socialMedia {
+  width: 100%;
+}
+
+.socialMediaWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
+
+.footerLogo {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  color: #fff;
+  margin-left: 20px;
+  font-size: 2em;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+  }
+}
+
+.copyright {
+  color: #fff;
+  font-weight: 600;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.socialIconLink {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .footerLinkWrapper {
+    flex-direction: column;
+  }
+
+  .footerLinkItems {
+    display: inline-block;
+    text-align: center;
+
+    a:hover {
+      color: #e9e9e9;
+      margin-left: 0px;
+    }
+  }
+
+  .socialMediaWrap {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+// .footerLinks {
+//   display: flex;
+//   justify-content: center;
+//   width: 100%;
+// }
+
+// .footerLinkWrapper {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: flex-start;
+// }
+
+// .footerLinkMenu {
+//   h2 {
+//     color: #fff;
+//     margin: 10px;
+//   }
+//   ul {
+//     list-style: none;
+//   }
+// }
+
+// .footerLinkItems {
+//   margin: 5px;
+//   a {
+//     text-decoration: none;
+//     color: #fff;
+//   }
+// }

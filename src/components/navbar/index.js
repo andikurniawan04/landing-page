@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.scss";
+import styles from "./style.module.scss";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -18,24 +18,29 @@ const Navbar = () => {
     window.addEventListener("scroll", changeBackground);
     return (
         <>
-            <nav className={navbar ? "navbar scroll" : "navbar"}>
-                <div className="navbar-container">
-                    <a href="#" className={navbar ? "logo scroll" : "logo"}>LOGO</a>
-                    <div className="menu-icon" onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <nav className={navbar ? `${styles.navbar} ${styles.scroll}` : styles.navbar}>
+                <div className={styles.navbarContainer}>
+                    <div className={navbar ? `${styles.logo} ${styles.scroll}` : styles.logo}>
+                        <a href="/landing-page" ><i className={`fas fa-vector-square`}> Lorem</i></a>
                     </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className="nav-item">
-                            <a className={navbar ? "nav-links scroll" : "nav-links"} href="#">HOME</a>
+                    <div className={`${styles.menuIcon} ${styles.icon}`} onClick={handleClick}>
+                        <i className={click ? `fas fa-times` : `fas fa-bars `} />
+                    </div>
+                    <ul className={click ? `${styles.navMenu} ${styles.active}` : styles.navMenu}>
+                        <li className={styles.navItem}>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="/landing-page">HOME</a>
                         </li>
-                        <li className="nav-item">
-                            <a className={navbar ? "nav-links scroll" : "nav-links"} href="#">SERVICES</a>
+                        <li className={styles.navItem}>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="#service">SERVICES</a>
                         </li>
-                        <li className="nav-item">
-                            <a className={navbar ? "nav-links scroll" : "nav-links"} href="#">PRICES</a>
+                        <li className={styles.navItem}>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="#price">PRICES</a>
                         </li>
-                        <li className="nav-item">
-                            <a className={navbar ? "nav-links scroll" : "nav-links"} href="#">CONTACT</a>
+                        <li className={styles.navItem}>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="#contact">CONTACT</a>
+                        </li>
+                        <li className={styles.navItem}>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="#about">ABOUT</a>
                         </li>
                     </ul>
                 </div>
@@ -43,29 +48,6 @@ const Navbar = () => {
             <div className="coba">
 
             </div>
-            {/* <div className="header">
-                <div className="header-left">
-                    <h1>Logo</h1>
-                </div>
-                <div className="header-right">
-                    <a href="#">HOME</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">PRICES</a>
-                    <a href="#">CONTACT</a>
-                </div>
-            </div> */}
-
-
-
-            {/* <div className="header-content">
-                <h1>SOCIAL MEDIA FOR BUSINESS</h1>
-                <p>PERFOMANCE BASED SOCIAL MEDIA AGENCY WE ARE LOREM MEDIA</p>
-                <button type="submit">GET STARTED</button>
-                <div>
-                    <img src="/img/social-ideas.svg" />
-                </div>
-               
-            </div> */}
 
         </>
 

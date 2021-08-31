@@ -1,23 +1,23 @@
 import React from "react";
 
-import "./style.scss";
+import styles from "./style.module.scss";
 
 const HeroSection = () => {
     return (
-        <div className="hero-container">
-            <div className="hero-left">
+        <div className={styles.container}>
+            <div className={styles.heroLeft}>
                 <h1>
                     <span>SOCIAL </span>
                     <span>MEDIA FOR BUSINESS</span>
                 </h1>
                 <p>PERFOMANCE BASED SOCIAL MEDIA AGENCY</p>
                 <p> WE ARE LOREM MEDIA</p>
-                <button type="submit" className="active">GET STARTED</button>
+                <button type="submit" className={styles.active}>GET STARTED</button>
             </div>
-            <div className="hero-right">
-                <img className="hero-img" src="/img/social-media.svg" />
+            <div className={styles.heroRight}>
+                <img className={styles.heroImg} src='/landing-page/img/social-media.svg' />
             </div>
-            <button type="submit" className="disabled">GET STARTED</button>
+            <button type="submit" className={styles.disabled}>GET STARTED</button>
         </div>
     )
 }

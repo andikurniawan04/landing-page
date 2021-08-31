@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+
+.biography {
+  max-width: 40%;
+
+  button {
+    color: #fff;
+    background-color: #6c63ff;
+    border-radius: 2em;
+    padding: 0.8em 2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+.bioImg {
+  width: 30em;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+    padding-top: 55px;
+  }
+  .biography {
+    max-width: 100%;
+    text-align: center;
+  }
+  .bioImg {
+    display: none;
+  }
+  .description {
+    margin: 1em;
+  }
+}

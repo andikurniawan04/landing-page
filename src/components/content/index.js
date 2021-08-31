@@ -4,6 +4,7 @@ import HeroSection from './heroSection';
 import Biography from './biography';
 import Service from './services';
 import Pricing from './pricing';
+import Subscription from './subscription';
 
 export const Content = () => {
     return (
@@ -11,7 +12,8 @@ export const Content = () => {
             <HeroSection />
             <Biography />
             <Service />
-            {/* <Pricing /> */}
+            <Pricing />
+            <Subscription />
         </div>
     )
 }

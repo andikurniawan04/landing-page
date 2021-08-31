@@ -1,7 +1,27 @@
 [
   {
-    "title": "Gold Package",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris vel iaculis dui.",
+    "title": "Bronze Package",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. ",
     "price": "$100"
+  },
+  {
+    "title": "Silver Package",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. ",
+    "price": "$120"
+  },
+  {
+    "title": "Gold Package",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. ",
+    "price": "$150"
+  },
+  {
+    "title": "Platinum Package",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. ",
+    "price": "$180"
+  },
+  {
+    "title": "Diamond Package",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit amet, faucibus vitae lacus. Integer elementum at nisi pharetra convallis. ",
+    "price": "$200"
   }
 ]
