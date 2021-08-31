@@ -6,7 +6,7 @@ export const Biography = () => {
     return (
         <div className={styles.container} id="about">
             <div className={styles.icon}>
-                <img className={styles.bioImg} src="/landing-page/img/biography.svg" />
+                <img className={styles.bioImg} src="/img/biography.svg" />
             </div>
             <div className={styles.biography}>
                 <h1 className={styles.title}>Who We Are</h1>

@@ -28,7 +28,7 @@ const Navbar = () => {
                     </div>
                     <ul className={click ? `${styles.navMenu} ${styles.active}` : styles.navMenu}>
                         <li className={styles.navItem}>
-                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="/landing-page">HOME</a>
+                            <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="/">HOME</a>
                         </li>
                         <li className={styles.navItem}>
                             <a className={navbar ? `${styles.navLinks} ${styles.scroll}` : styles.navLinks} href="#service">SERVICES</a>

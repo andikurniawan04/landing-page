@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className={styles.footerLinkWrapper}>
                     <div className={styles.footerLinkItems}>
                         <h2>Quick Links</h2>
-                        <div className={styles.Link}><a href="/landing-page">Home </a></div>
+                        <div className={styles.Link}><a href="/">Home </a></div>
                         <div className={styles.Link}><a href="#service">Services </a></div>
                         <div className={styles.Link}><a href="#price">Price </a></div>
                         <div className={styles.Link}><a href="#contact">Contact </a></div>

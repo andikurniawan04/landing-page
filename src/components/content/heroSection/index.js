@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <button type="submit" className={styles.active}>GET STARTED</button>
             </div>
             <div className={styles.heroRight}>
-                <img className={styles.heroImg} src='/landing-page/img/social-media.svg' />
+                <img className={styles.heroImg} src='/img/social-media.svg' />
             </div>
             <button type="submit" className={styles.disabled}>GET STARTED</button>
         </div>

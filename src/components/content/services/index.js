@@ -18,7 +18,7 @@ const Service = () => {
                 {data.map((row, index) => (
                     <div className={styles.card} key={index}>
                         {console.log(row)}
-                        <img className={styles.cardImg} src={`/landing-page/img/service/${row.image}`} />
+                        <img className={styles.cardImg} src={`/img/service/${row.image}`} />
                         <h4 className={styles.cardTitle}>{row.title}</h4>
                         <div className={styles.cardBody}>
                             <div className={styles.cardButton}>
