@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Marketing Landing Page
+
+### [Live Site](https://landing-page21.herokuapp.com/)
+
+![web](https://user-images.githubusercontent.com/65803684/133240726-866227ff-2492-40f5-abd0-d6ef24b79ccd.png)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
